@@ -1,0 +1,38 @@
+/*----font style-----*/
+@font-face {
+    font-family: 'AdihausDIN';
+    src: url(/font/AdihausDIN-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'AdineuePRO';
+    src: url(/font/adineuePRO-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'AdineuePRO';
+    src: url(/font/adineuePRO-Bold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'AdineuePRO';
+    src: url(/font/adineuePRO-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'AdihausDIN Cn';
+    src: url(/font/AdihausDIN-cn.ttf);
+}
+.font-AdihausDIN{
+    font-family: 'AdihausDIN','Helvetica', 'Arial', sans-serif;
+}
+.font-AdihausDIN-cn{
+    font-family: 'AdihausDIN Cn','Helvetica', 'Arial', sans-serif;
+}
+.font-AdineuePRO{
+    font-family: 'AdineuePRO','Helvetica', 'Arial', sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
